@@ -6,6 +6,41 @@
     اباتtitle>मेरो सुरक्षित ठाउँ - Stillroom</title>
     <style>
         :root {
+/* समग्र बडीको लागि स्टाइल */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f9;
+    color: #333333;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+/* मुख्य शीर्षक (Heading) को लागि */
+h1 {
+    color: #2c3e50;
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/* प्याराग्राफको लागि स्टाइल */
+p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    max-width: 600px;
+    text-align: center;
+    color: #555555;
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
             --primary-color: #6366f1;
             --bg-color: #0f172a;
             --card-bg: #1e293b;
